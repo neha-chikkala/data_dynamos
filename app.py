@@ -35,7 +35,7 @@ def save_chat(chat_id, content):
 # geminimi model
 def call_gemini_api(user_text, user_image):
     try:
-        model = genai.GenerativeModel("gemini-2.0-flash")  
+        model = genai.GenerativeModel("gemini-3.8-flash")  
         input_parts = []
 
         if user_text:
